@@ -1,0 +1,99 @@
+/*
+ * @version v6.0.0-SNAPSHOT
+ * @date 2-23-2017
+ * @timestamp 2:22:50
+ */
+
+
+
+/* layout.all@t02a.css - t02a - Listing Template */
+
+body .page {
+    background-color: #f2f2f2;
+}
+
+.wide {
+	width: 100%;
+    margin-left: 0;
+    padding: 0;
+}
+
+.pagination {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mainContentWrapper{
+    padding-bottom: 20px;
+}
+
+
+.listingContainer {
+	float: left;
+	width: 100%;
+    margin-top: -20px;
+}
+
+@media (min-width: 768px) {
+	.listingContainer {
+		width: 75%;
+        padding-left: 10px;
+	}
+
+    .sidebarWrapper{
+        padding-top: 20px;
+    }
+}
+
+.listingPaginationContainer{
+	text-align: right;
+}
+
+.listingMainContainer{
+	position: static;
+}
+
+@media (min-width: 481px) {
+	.listingMainContainer{
+		position: relative;
+	}
+}
+
+@media (max-width: 767px) {
+    .pagination a {
+        width: 44px;
+        height: 44px;
+        background-color: #eee;
+        /*display: inline-block;*/
+        text-align: center;
+    }
+    .pagination a span {
+        display: none;
+    }
+    .pagination .dbl-chevron-left:before {
+        font-size: 3em;
+        line-height: 1.1;
+    }
+    .pagination .chevron-left:before,
+    .pagination .chevron-right:after {
+        font-size: 2.2em;
+        line-height: 1.8;
+    }
+    .pagination .next {
+        float: right;
+        padding-right: 0;
+    }
+    .pagination .current-page {
+        display: inline-block;
+        width: 50%;
+        width: calc(100% - 177px);
+    }
+}
+
+
+/* cnt_reservation_1@t02a.css */
+
+.modCnt_reservation_1 .wrap {
+	margin: 0;
+	width: 100%;
+}

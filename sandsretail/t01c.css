@@ -1,0 +1,68 @@
+/*
+ * @version v6.0.0-SNAPSHOT
+ * @date 2-23-2017
+ * @timestamp 2:22:50
+ */
+
+
+
+/* layout.all@t01c.css - t01c - Homepage Template */
+
+body{
+	background-color: #000000;
+}
+.mh_container_1 {
+	margin-bottom: 30px;
+}
+
+/* layout@t01c.css - t01c - sandsretail Homepage Template */
+
+.page { background-color: #000; }
+
+main.t01c {
+	padding-bottom: 2em;
+}
+
+.cnt-tab-1 .resp-accordion.resp-tab-active,
+.cnt-tab-1 .resp-accordion.resp-tab-active:hover,
+.cnt-tab-1 .resp-accordion:hover {
+	background: #d5c496 !important; /* override for easyResponsiveTabs.js - which adds inline style of background none when going from wide to xs */
+}
+
+@media (min-width: 768px) {
+	.resp-tabs-list.horz_1 {
+		background: url('/static/nav_tab_1_shadow_light.png') bottom center no-repeat;
+	}
+}
+
+/*
+	Copyright (c) 2014 , MRM//McCANN. All rights reserved.
+	Created on : Apr 13, 2015
+	Author     : tony.herford
+	File Name  : cnt_img_overlay_1.css
+*/
+
+div.modCnt_img_overlay_1 .text_container .text {
+	color: #ffffff;
+}
+
+div.modCnt_img_overlay_1.split .text_container h2.title {
+	color: #ffffff;
+}
+
+/*
+	Copyright (c) 2015 , MRM//McCANN. All rights reserved.
+    Created on : Mar 31, 2015
+    Author     : tony.herford
+    File Name  : cnt_tab_1@t01c.css
+*/
+
+.cnt-tab-1 .cnt-tab-1-title {
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.cnt-tab-1 .cnt-tab-featured-1-text {
+	color: #ffffff;
+	text-align: left;
+}

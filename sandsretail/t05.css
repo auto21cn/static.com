@@ -1,0 +1,186 @@
+/*
+ * @version v6.0.0-SNAPSHOT
+ * @date 2-23-2017
+ * @timestamp 2:22:50
+ */
+
+
+
+/* layout.all@t05.css - Engaging Retail Template */
+
+#sect-mh_container,
+#sect-cnt_tab {
+	margin-bottom: 2em;
+}
+.text_container a.cnt_button_1 {
+	background-color: transparent;
+	border: none;
+	padding: 0;
+}
+/*.text_container a.cnt_button_1 span {
+	color: #AE9349;
+}*/
+.text_container a.cnt_button_1:hover span {
+	text-decoration: underline;
+	color: #cb9632;
+}
+.text_container a.cnt_button_1:hover {
+	border: none;
+}
+
+/*
+	Copyright (c) 2015 , MRM//McCANN. All rights reserved.
+    Created on : Mar 31, 2015
+    Author     : tony.herford
+    File Name  : cnt_tab_1@t05.css
+*/
+
+.cnt-tab-1 .cnt-tab-1-title {
+	text-align: center;
+	font-size: 2.5em;
+}
+
+.cnt-tab-1 li.resp-tab-active,
+.cnt-tab-1 li.resp-tab-active:hover,
+.cnt-tab-1 li.resp-tab-active,
+.cnt-tab-1 li.resp-tab-active:hover,
+.cnt-tab-1 .resp-accordion.resp-tab-active,
+.cnt-tab-1 .resp-accordion.resp-tab-active:hover {
+	border: none;
+	padding: 7px 15px;
+	color: #000;
+}
+
+.cnt-tab-1 .resp-tabs-list {
+	text-align: center;
+}
+
+.cnt-tab-1 .resp-tabs-list li {
+	border: none;
+	float: none;
+	min-width: 150px;
+	margin: 0 2px;
+	background: #808080;
+	color: #fff;
+	padding: 7px 15px;
+}
+
+.cnt-tab-1 .resp-tabs-list li:first-child {
+	margin-left: 0;
+}
+
+.cnt-tab-1 .resp-tabs-list li:last-child {
+	margin-right: 0;
+}
+
+.cnt-tab-1 .resp-tabs-list li:hover,
+.cnt-tab-1 .resp-tabs-list li.resp-tab-active {
+	background: #d5c496;
+	color: #000;
+}
+
+.cnt-tab-1 .resp-tabs-list li.resp-tab-active {
+	position: relative;
+}
+
+.cnt-tab-1 .resp-tabs-list li.resp-tab-active:after {
+	content: "";
+	position: absolute;
+	bottom: -18px;
+	left: 50%;
+	margin-left: -15px;
+	border-color: #d5c496 transparent;
+	border-style: solid;
+	border-width: 18px 15px 0px 15px;
+	height: 0px;
+	width: 0px;
+}
+
+.cnt-tab-1 .resp-tab-content {
+	padding: 25px 0 15px 0;
+	overflow: hidden;
+	border: none;
+}
+
+@media (max-width: 767px) {
+	.cnt-tab-1 .resp-tab-content {
+		padding: 0;
+	}
+}
+@media (min-width: 768px) {
+	.resp-tabs-list.horz_1 {
+		border-bottom: 1px solid #c1c1c1;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+
+.cnt-tab-1 .resp-accordion:first-child { margin-top: 7px !important; }
+
+.cnt-tab-1 .resp-accordion:hover,
+.cnt-tab-1 .resp-accordion {
+	background: #808080;
+	color: #fff;
+	border: none;
+	padding: 7px 15px;
+	text-align: center;
+	margin: 5px 0;
+	padding-right: 28px;
+}
+
+.cnt-tab-1 .resp-accordion:first-child {
+	margin-top: 0;
+}
+
+.cnt-tab-1 .resp-accordion span.resp-arrow {
+	border-color: #fff transparent;
+	margin-right: -20px;
+}
+
+.cnt-tab-1 .resp-accordion.resp-tab-active,
+.cnt-tab-1 .resp-accordion.resp-tab-active:hover,
+.cnt-tab-1 .resp-accordion:hover {
+	background: #d5c496 !important;
+	color: #000;
+	padding-right: 28px;
+	/*margin: 5px 0;*/
+}
+
+.cnt-tab-1 .resp-tab-active span.resp-arrow {
+	border-color: #000 transparent;
+}
+
+.text_container a.cnt_button_1 {
+	background-color: transparent;
+	border: none;
+	padding: 0;
+}
+
+.text_container a.cnt_button_1:hover span {
+	text-decoration: underline;
+	color: #cb9632;
+}
+
+.text_container a.cnt_button_1:hover {
+	border: none;
+}
+
+.modCnt_tab_1.cnt-tab-1 .resp-tab-content {
+	padding-top: 25px;
+}
+
+.modCnt_tab_1.cnt-tab-1 .cnt-tab-1-title {
+	font-size: 2.5em;
+	margin-bottom: 32px;
+	margin-left: 0%;
+}
+
+/* cnt_tab_1@t05.css - sandsretail */
+
+@media (min-width: 768px) {
+	.resp-tabs-list.horz_1 {
+		background: url('/static/nav_tab_1_shadow.png') bottom center no-repeat;
+	}
+}

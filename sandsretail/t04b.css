@@ -1,0 +1,108 @@
+/*
+ * @version v6.0.0-SNAPSHOT
+ * @date 2-23-2017
+ * @timestamp 2:22:50
+ */
+
+
+
+/* layout.all@t04b.css - t04b - Offer Detail Template (New) */
+
+.op_details_image {
+	/*background-color: #F0F0F0;*/
+	background: transparent url('/static/combine_sprite.png') no-repeat -10px -479px;
+	width: 140px;
+	height: 140px;
+	float: right !important;
+}
+
+.col-sm-6 .op_details_image {
+	float: none !important;
+	margin-bottom: 2em;
+}
+
+.text-center {
+	text-align: center;
+}
+
+/*.img-circle {
+	border-radius: 50%;
+}*/
+
+.op_details_image img {
+	margin-top: 28%;
+	max-width: 100%;
+}
+
+.op_details_image a {
+	top: 5px;
+	position: relative;
+	text-decoration: underline;
+	color: gray;
+	font-size: 10px;
+}
+
+#btnloc a.cnt_button_1 {
+	width: 100%;
+	padding: 10px 16px;
+}
+
+#sect-text-list .parsys.main_parsys_1 {
+	margin-top: 15px;
+	padding-bottom: 2em;
+}
+
+#sect-text-list .cnt_paragraph_1 h2 {
+	margin-top: 0;
+}
+
+#sect-text-list .cnt_paragraph_1.tx ul {
+	padding-left: 1.5em;
+}
+
+#sect-disclaimer .cnt_disclaimer_1 {
+	border-top: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	padding: 10px 0 20px;
+}
+
+.container-fluid.cnt-rel-offer-1 {
+	padding: 0;
+	margin-bottom: 2em;
+}
+
+#sect-tripadvisor-cond {
+	border-top: 1px solid #e4e4e4;
+	padding-top: 1.5em;
+}
+
+@media (max-width: 768px){
+	.op_details_image {
+		background: none;
+		background-color: #F0F0F0;
+		float: none !important;
+		width: 100%;
+		border-radius: 0px;
+		height: 59px;
+	}
+    .op_details_image img {
+        margin-top:0;
+        height:80%;
+    }
+    .op_details_image a {
+        display:none;
+    }
+    #sect-disclaimer .cnt_disclaimer_1 {
+    	border: none;
+    }
+    #sect-tripadvisor-cond {
+		margin-top: 2em;
+		border-top: none;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 769px) {
+	#sect-tripadvisor-cond {
+		padding-top: 1em;
+	}
+}

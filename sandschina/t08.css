@@ -1,0 +1,37 @@
+/*
+ * @version v6.0.0-SNAPSHOT
+ * @date 2-23-2017
+ * @timestamp 2:22:50
+ */
+
+
+
+/* layout.all@t08.css - t08 - Error Page Template */
+
+.modCnt_title_1 h1 {
+	margin-top: 1.5em;
+	text-align: center;
+}
+
+/* layout@t08.css - sandschina */
+
+.modCnt_title_1 h1 {
+	text-align: left;
+}
+
+@media (min-width: 992px) {
+	.sands-content-area {
+		margin-left: 8.33333333%;
+	}
+	.modCnt_t08_1 {
+		width: 83.33333333%;
+	}
+}
+@media (min-width: 1200px) {
+	.sands-content-area {
+		margin-left: 16.66666667%;
+	}
+	.modCnt_t08_1 {
+		width: 66.66666667%;
+	}
+}

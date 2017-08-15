@@ -1,0 +1,116 @@
+/*
+ * @version v6.0.0-SNAPSHOT
+ * @date 2-23-2017
+ * @timestamp 2:22:50
+ */
+
+
+
+/* layout.all@t03c.css - t03c - Details Template (Free Form) */
+
+.sands-content-area {
+	margin-top: 2em;
+}
+
+#sect-title .modCnt_paragraph_1 {
+	margin-top: 1em;
+}
+
+#sect-share {
+ 	margin: 1.5em 0;
+}
+
+#main-content {
+	padding-bottom: 3em;
+}
+
+#sidebar .cnt_teaser_1.section {
+	margin-bottom: 1.5em;
+}
+
+#sidebar > .row {
+	margin-right: 0;
+}
+
+.parsys.intro_parsys {
+	padding: 0 15px;
+}
+
+.ie8 table > tbody > tr > td{
+	border: 1px solid #000;
+}
+
+.text_container a.cnt_button_1 {
+	background-color: transparent;
+	border: none;
+	padding: 0;
+}
+
+.text_container a.cnt_button_1:hover span {
+	text-decoration: underline;
+	color: #cb9632;
+}
+.text_container a.cnt_button_1:hover {
+	border: none;
+}
+
+
+/* cnt_ref_details_1@t03c.css */
+
+.cnt_ref_details_1 .detailBtnWrapper div {
+    margin-bottom: 0px;
+}
+
+.cnt_ref_details_1 .list-group {
+    clear: both;
+    border-bottom: 1px solid #e4e4e4;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.cnt_ref_details_1 .detailBtnWrapper.adetail .tx {
+    display: inline-block;
+    border-right: 2px solid #000;
+    padding-right: 10px;
+    font-size: 18px;
+    color: #cb9623;
+    margin-right: 15px;
+    line-height: 1;
+    margin-top: 5px;
+}
+
+.cnt_ref_details_1 .detailBtnWrapper {
+    padding: 10px 20px 0px 0;
+    display: inline-block;
+}
+
+.cnt_ref_details_1 .detailBtnWrapper a.cnt_button_1 {
+    margin-top: -4px;
+}
+
+.cnt_ref_details_1 .ni .detailBtnWrapper {
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .cnt_ref_details_1 .detailBtnWrapper {
+        text-align: right;
+        bottom: 0;
+        right: 0;
+        padding: 0px 20px 20px 0;
+        display: inline-block;
+    }
+    .cnt_ref_details_1 .ni .detailBtnWrapper {
+        position: relative;
+        float: right;
+    }
+
+    .cnt_ref_details_1 .teaserDescription {
+       /* padding-bottom: 30px;*/
+    }
+
+    .cnt_ref_details_1 .list-group.ni {
+        padding-bottom: 50px;
+    }
+}

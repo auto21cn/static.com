@@ -1,0 +1,48 @@
+/*
+ * @version v6.0.0-SNAPSHOT
+ * @date 2-23-2017
+ * @timestamp 2:22:50
+ */
+
+
+
+/* layout.all@t01c.css - t01c - Homepage Template */
+
+body{
+	background-color: #000000;
+}
+.mh_container_1 {
+	margin-bottom: 30px;
+}
+
+/*
+	Copyright (c) 2014 , MRM//McCANN. All rights reserved.
+	Created on : Apr 13, 2015
+	Author     : tony.herford
+	File Name  : cnt_img_overlay_1.css
+*/
+
+div.modCnt_img_overlay_1 .text_container .text {
+	color: #ffffff;
+}
+
+div.modCnt_img_overlay_1.split .text_container h2.title {
+	color: #ffffff;
+}
+
+/*
+	Copyright (c) 2015 , MRM//McCANN. All rights reserved.
+    Created on : Mar 31, 2015
+    Author     : tony.herford
+    File Name  : cnt_tab_1@t01c.css
+*/
+
+.cnt-tab-1 .cnt-tab-1-title {
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.cnt-tab-1 .cnt-tab-featured-1-text {
+	color: #ffffff;
+	text-align: left;
+}

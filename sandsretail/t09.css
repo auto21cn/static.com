@@ -1,0 +1,73 @@
+/*
+ * @version v6.0.0-SNAPSHOT
+ * @date 2-23-2017
+ * @timestamp 2:22:50
+ */
+
+
+
+/* layout.all@t09.css - t09 */
+
+.bestRateArea {
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+}
+
+.bestRateArea {
+  border: 1px solid #cccccc;
+  margin-top: 2em;
+}
+
+.bestRateAreaText {
+  border-bottom: 1px solid #cccccc;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1.35em;
+}
+
+.bestRateAreaText .large-highlighted {
+  font-weight: normal;
+}
+
+.bestRateAreaImg .cnt_image_1 img {
+  margin-top: 2em;
+}
+
+.spinner {
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  opacity: .7;
+}
+
+.spinner.small {
+  height: 31px;
+  width: 31px;
+  background: url("/static/spiffygif_30x30.gif");
+  margin: 3em auto 1.5em;
+}
+
+#loading-text {
+  text-align: center;
+  font-size: 2em;
+  line-height: 1.3em;
+  margin-bottom: .2em;
+}
+
+.container-fluid {
+  margin-bottom: 3em;
+}
+
+.container-fluid .promo-Img-Area [class*="promoImg_"]{
+  margin-bottom: 15px;
+}
+
+.c04-footer-1 {
+  padding-top: 1.5em;
+  overflow: auto;
+}
+
+.c04-footer-1 .pad-rl-15 {
+  padding: 0;
+}

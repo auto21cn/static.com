@@ -1,0 +1,29 @@
+/*
+ * @version v6.0.0-SNAPSHOT
+ * @date 2-23-2017
+ * @timestamp 2:22:50
+ */
+
+
+
+/* layout.all@t14.css - t14 - Special Events Template */
+
+.t14 img {
+	max-width: 100%;
+}
+.t14 .breadcrumbContainer {
+	position: absolute;
+	z-index: 10;
+}
+.t14 .featureQuoteContainer,
+.t14 .featureImageContainer,
+.t14 .featureWellContainer {
+	margin:15px auto;
+}
+
+.t14 .featureQuoteContainer,
+.t14 .featureImageContainer,
+.t14 .featureWellContainer {
+	float:none;
+	clear:both;
+}

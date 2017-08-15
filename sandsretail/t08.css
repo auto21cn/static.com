@@ -1,0 +1,20 @@
+/*
+ * @version v6.0.0-SNAPSHOT
+ * @date 2-23-2017
+ * @timestamp 2:22:50
+ */
+
+
+
+/* layout.all@t08.css - t08 - Error Page Template */
+
+.modCnt_title_1 h1 {
+	margin-top: 1.5em;
+	text-align: center;
+}
+
+/* layout@t08.css - sandsretail */
+
+.modCnt_title_1 .cnt-title-1 {
+	text-align: center;
+}
